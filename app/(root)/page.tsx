@@ -8,7 +8,7 @@ export default async function Home({ searchParams }: {
 
   const posts = [
     {
-      _createdAt: "Yesterday",
+      _createdAt: new Date(),
       Views: 55,
       author: { _id: 1 },
       _id : 1,
@@ -48,10 +48,6 @@ export default async function Home({ searchParams }: {
 
         </ul>
       </section>
-
-      <div className="bg-blue-500 text-white p-5">
-        If you see this, Tailwind is working!
-      </div>
 
         
      </>
